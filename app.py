@@ -28,7 +28,7 @@ import streamlit as st
 from detection import DetectionResult, ImageProcessor, ObjectDetector, VideoProcessor
 
 
-APP_TITLE = "SmartVision Lite"
+APP_TITLE = "RetailVision AI"
 APP_SUBTITLE = "Real-Time Object Detection"
 PRETRAINED_MODELS = {
     "YOLO11 Nano - recommended": "yolo11n.pt",
@@ -203,7 +203,7 @@ def _sidebar() -> tuple[str, DetectorSettings, str | None]:
     """Render navigation/settings and return a validation message if needed."""
 
     with st.sidebar:
-        st.markdown("## SmartVision Lite")
+        st.markdown("## RetailVision AI")
         st.caption("A small, practical YOLO workspace")
         page = st.radio(
             "Navigate",
@@ -461,7 +461,7 @@ def _render_home() -> None:
         "See what your camera sees.",
         "Run lightweight YOLO object detection on images, recorded video, or a "
         "live browser camera - through one beginner-friendly interface.",
-        "SmartVision Lite - Real-time object detection",
+        "RetailVision AI - Real-time object detection",
     )
 
     columns = st.columns(3)
@@ -1033,7 +1033,7 @@ def _render_live(settings: DetectorSettings, settings_error: str | None) -> None
 
 def _footer() -> None:
     st.markdown(
-        '<div class="sv-footer">SmartVision Lite - Built for transparent, '
+        '<div class="sv-footer">RetailVision AI - Built for transparent, '
         'measured computer-vision experiments</div>',
         unsafe_allow_html=True,
     )
