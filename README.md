@@ -38,9 +38,7 @@ RetailVision AI aims to address these challenges by combining visual object dete
 4. Provide structured inventory and sales data.
 5. An LLM analyses the supplied data and generates inventory insights (planned).
 
-## Project Structure
 
-The project starts from the open-source [SmartVision Lite](https://github.com/mohitkhairanar-max/SmartVision-Lite) object detection implementation, which will be extended with retail inventory analytics and LLM capabilities.
 
 ## Future Enhancements
 
@@ -58,9 +56,7 @@ The project starts from the open-source [SmartVision Lite](https://github.com/mo
 - Inventory recommendations depend on the quality of the supplied sales and stock data.
 - LLM-based inventory analysis is planned for a future development phase.
 
-## Acknowledgements
 
-This project builds upon the open-source [SmartVision Lite](https://github.com/mohitkhairanar-max/SmartVision-Lite) project. Credit goes to its original developers and the Ultralytics YOLO framework.
 
 ---
 
