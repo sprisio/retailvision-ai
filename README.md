@@ -1,6 +1,6 @@
 # RetailVision Lite — Real-Time Object Detection
 
-SmartVision Lite is a beginner-friendly object-detection project built with
+retailVision Lite is a beginner-friendly object-detection project built with
 Ultralytics YOLO, PyTorch, OpenCV, and Streamlit. It provides one approachable
 interface for detecting objects in images, uploaded videos, and a live webcam
 feed, plus a standalone desktop webcam demo and a Colab training notebook.
