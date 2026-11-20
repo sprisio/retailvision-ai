@@ -58,7 +58,7 @@ and export helpers remain independent and easy to test.
 ## Project structure
 
 ```text
-SmartVision-Lite/
+RetailVision-AI/
 |-- app.py                       # Streamlit application
 |-- webcam_demo.py               # Desktop OpenCV webcam demo
 |-- config/                      # Defaults and supported options
@@ -79,8 +79,8 @@ SmartVision-Lite/
 Python 3.10–3.12 and Git are recommended. In PowerShell:
 
 ```powershell
-git clone https://github.com/mohitkhairanar-max/SmartVision-Lite.git
-cd SmartVision-Lite
+git clone https://github.com/sprisio/retailvision-ai.git
+cd RetailVision-AI
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -260,4 +260,4 @@ No mock detection result is shown here.
 
 Released under the [MIT License](LICENSE).
 
-**Mohit Khairanar** — [@mohitkhairanar-max](https://github.com/mohitkhairanar-max)
+**deepanshu pathak** — [@sprisio](https://github.com/sprisio)

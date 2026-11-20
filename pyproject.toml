@@ -3,14 +3,14 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "smartvision-lite"
+name = "retailvision-ai"
 version = "1.0.0"
 description = "Beginner-friendly real-time object detection with YOLO and Streamlit"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-  { name = "Mohit Khairanar", email = "mohitkhairanar19493@gmail.com" },
+  { name = "deepanshu pathak", email = "pathakdeepanshu88@gmail.com" },
 ]
 dependencies = [
   "ultralytics-opencv-headless>=8.3.0,<9",

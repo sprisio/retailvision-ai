@@ -22,6 +22,6 @@ dataset/
 Each label line uses normalized YOLO format:
 `class_id x_center y_center width height`.
 
-After training, download `runs/detect/smartvision-lite/weights/best.pt`. Do not
+After training, download `runs/detect/retailvision-ai/weights/best.pt`. Do not
 commit it. Put it in the local `models/` directory and select it from the
 Streamlit sidebar.
